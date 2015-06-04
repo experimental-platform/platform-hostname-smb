@@ -6,4 +6,6 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-CMD ["", ""]
+ADD smb.conf /etc/samba/smb.conf
+
+CMD ["/usr/sbin/nmbd", "-F", "-S"]
