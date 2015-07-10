@@ -9,3 +9,4 @@ RUN apt-get update && \
 ADD smb.conf /etc/samba/smb.conf
 
 CMD ["/usr/sbin/nmbd", "-F", "-S"]
+
