@@ -8,12 +8,13 @@ This is a component of the experimental platform. To read more about it please g
 
 ## Branch: Development
 
-[![Circle CI](https://circleci.com/gh/experimental-platform/platform-hostname-smb.svg?style=svg&circle-token=bd5e1495572d71fa80bd95fe8c75097662d3402a)](https://circleci.com/gh/experimental-platform/platform-hostname-smb)
+[![Build Status](https://travis-ci.org/experimental-platform/platform-hostname-smb.svg?branch=development)](https://travis-ci.org/experimental-platform/platform-hostname-smb)
 
 All development branches stem from and (re-)integrate here.
 
 ## Branch: Master
 
-[![Circle CI](https://circleci.com/gh/experimental-platform/platform-hostname-smb/tree/master.svg?style=svg&circle-token=bd5e1495572d71fa80bd95fe8c75097662d3402a)](https://circleci.com/gh/experimental-platform/platform-hostname-smb/tree/master)
+[![Build Status](https://travis-ci.org/experimental-platform/platform-hostname-smb.svg?branch=master)](https://travis-ci.org/experimental-platform/platform-hostname-smb)
 
 This is the base for &alpha;-channel releases.
+
