@@ -8,5 +8,5 @@ RUN apt-get update && \
 
 ADD smb.conf /etc/samba/smb.conf
 
-CMD ["/usr/sbin/nmbd", "-F", "-S"]
+CMD ["dumb-init", "/usr/sbin/nmbd", "-F", "-S"]
 
